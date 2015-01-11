@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '1.9.3'
 
 
 gem 'rails', '4.1.7'
@@ -16,3 +16,8 @@ gem 'pg',			group: :production
 gem 'rails_12factor',		group: :production
 gem 'bootstrap-sass', '~> 3.3.1'
 gem 'devise'
+gem 'twitter-bootstrap-rails'
+gem 'therubyracer'
+gem 'debugger'
+
+# https://github.com/seyhunak/twitter-bootstrap-rails
